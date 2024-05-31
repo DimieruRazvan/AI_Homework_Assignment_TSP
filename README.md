@@ -5,10 +5,9 @@
 2. [Problem Statement](#problem-statement)
 3. [Algorithms Implemented](#algorithms-implemented)
 4. [Application Overview](#application-overview)
-5. [Compiling the Code](#compiling-the-code)
-6. [Running the Application](#running-the-application)
-7. [File Structure](#file-structure)
-8. [Conclusions](#conclusions)
+5. [Running the Application](#running-the-application)
+6. [File Structure](#file-structure)
+7. [Conclusions](#conclusions)
 
 ## Introduction
 This application is a solver for the Traveling Salesman Problem (TSP) using three algorithms: Depth-First Search (DFS), Uniform Cost Search (UCS), and A* Search (A*). The goal is to find the minimum cost path that visits each city exactly once and returns to the starting city.

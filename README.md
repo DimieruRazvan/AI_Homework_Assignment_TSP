@@ -48,13 +48,6 @@ The output is the minimum cost of a TSP tour found by the selected algorithm.
     - Implements the A* Search algorithm
     - `aStarSearch(int start, int N, int** distances)`: Solves the TSP using A*
 
-## Compiling the Code
-To compile the code, use the provided Makefile. Open a terminal in the root directory of the project and run:
-```sh
-make
-```
-This will compile all the source files and generate an executable named `tsp_solver`.
-
 ## Running the Application
 To run the application, use the following command:
 ```sh

@@ -66,20 +66,14 @@ You will be prompted to enter the number of cities and the distance matrix, foll
 3. A*
 
 ## File Structure
-```
-TSP_Solver/
-├── src/
-│   ├── main.cpp
-│   ├── DFS.cpp
-│   ├── UCS.cpp
-│   ├── AStar.cpp
-│   └── Makefile
-├── include/
-│   ├── DFS.h
-│   ├── UCS.h
-│   └── AStar.h
-└── README.md
-```
+- **AStar.cpp, AStar.h**: Implementation and header file for the A* search algorithm.
+- **DFS.cpp, DFS.h**: Implementation and header file for the Depth-First Search algorithm.
+- **UCS.cpp, UCS.h**: Implementation and header file for the Uniform Cost Search algorithm.
+- **Main.cpp**: Main entry point of the application.
+- **TSP.sln**: Visual Studio solution file.
+- **x64/Debug**: Directory containing debug build artifacts.
+- **x64**: Directory containing build artifacts.
+- **README.md**: This file.
 
 ## Conclusions
 After completing this homework, we have successfully implemented three different algorithms for solving the TSP and compared their performances. The most challenging part was ensuring the correctness of the heuristic in the A* algorithm. Future work could include optimizing these algorithms further and exploring other heuristic methods for A*.

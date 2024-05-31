@@ -51,7 +51,7 @@ The output is the minimum cost of a TSP tour found by the selected algorithm.
 ## Running the Application
 To run the application, use the following command:
 ```sh
-./tsp_solver
+./tsp.exe
 ```
 You will be prompted to enter the number of cities and the distance matrix, followed by the choice of algorithm:
 1. DFS
